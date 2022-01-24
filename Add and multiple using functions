@@ -1,0 +1,8 @@
+def func1(x,y):
+    x=int(input("enter value of x:"))
+    y=int(input("enter value of y:"))
+    sum1=x+y,x-y,x*y
+    # sub1=x-y
+    # mul1=x*y
+    print("The sum,subtraction and multipliction is :" , sum1)
+func1(0,0)
