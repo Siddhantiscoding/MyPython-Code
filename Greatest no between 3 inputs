@@ -1,0 +1,14 @@
+def max(x,y,z):
+    x = int(input("enter value of x:"))
+    y = int(input("enter value of y:"))
+    z= int(input("enter value of z:"))
+
+    if x>y and x>z:
+        print(f"{x} is greatest number")
+
+    elif y>x and y>z:
+        print(f"{y} is the greatest number")
+
+    else:
+        print(f"{z} is greatest number")
+max(0,0,0)
